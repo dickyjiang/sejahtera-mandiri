@@ -10,12 +10,10 @@
                 </div>
             </div>
             <div class="flex gap-3">
-                <div>
-                    Kirim Garansi
-                </div>
-                <div>
-                    Cek Status
-                </div>
+
+                    <router-link @click="scrollToTop" class="hover:text-turkis focus:text-turkis " to="/">Kirim Garansi</router-link>
+                    <router-link @click="scrollToTop" class="hover:text-turkis focus:text-turkis " to="/CheckStatus">Check Status</router-link>
+
             </div>
     </div>
 </div>
@@ -24,6 +22,16 @@
 
 <script>
 export default {
+    methods: { 
+           scrollToTop() {
+                window.scrollTo({
+                  top: 0,
+                  behavior: 'smooth',
+                }
+                );
+           },
+           
+        }
 
 }
 </script>
