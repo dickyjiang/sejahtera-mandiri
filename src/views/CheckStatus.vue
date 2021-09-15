@@ -34,7 +34,6 @@
                 </tbody>
             </table>
         </div>    
-        <button class="px-3 py-2 w-32 text-white font-semibold shadow-md  rounded bg-turkis"> Submit </button>
       </div>
 
 
