@@ -11,6 +11,7 @@ module.exports = {
   variants: {
     extend: {
       backgroundColor: ['even'],
+      border: ['active', 'focus'],
     },
   },
   plugins: [],
